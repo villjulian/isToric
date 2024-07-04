@@ -2,8 +2,7 @@
 
 This repo contains a SAGE implementation for the algorithm presented in .....
 Everything is contained in the file isToric.sage, the other files contain examples.
-In the case of .sage files they can be loaded or copied into a SAGE session and the
-.ipynb files are to be used in a Jupyter notebook.
+In the case of .sage files they can be loaded or copied into a SAGE session.
 
 
 The purpose of the algorithm is to decide if a given variety can be made toric by a linear change of coordinates.
