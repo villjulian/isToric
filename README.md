@@ -134,9 +134,9 @@ where the first row and column correspond to the homogenizing variable. Moreover
 
   ## Example 2
 
-Using ... in the paper it suffices to compute the dimension of a maximal torus if we know that the homogeneous ideal is prime, does not contain a linear form and its dimension is known.
+Using ... in the paper it suffices to compute the dimension of a maximal torus if we know that the homogeneous ideal is prime and it does not contain a linear form.
 
-Assume $I$ is a homogeneous prime ideal containing no linear forms and of dimension $s$.
+Assume $I$ is a homogeneous prime ideal containing no linear form and the dimension of the quotient ring is $s$.
 If the dimension
 ```
 lie = LieAlgebra(I)
