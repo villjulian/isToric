@@ -1,8 +1,9 @@
 # isToric
 
-This repo contains a SAGE implementation for the algorithm presented in .....
+This repo contains a SAGE implementation for the algorithm presented in [this paper](https://arxiv.org/abs/2408.14323).
 Everything is contained in the file isToric.sage, the other files contain examples.
 In the case of .sage files they can be loaded or copied into a SAGE session.
+Part of this code is based on code from [this paper](https://arxiv.org/abs/2309.10741).
 
 
 The purpose of the algorithm is to decide if a given variety can be made toric by a linear change of coordinates.
@@ -134,7 +135,7 @@ where the first row and column correspond to the homogenizing variable. Moreover
 
   ## Example 2
 
-Using ... in the paper it suffices to compute the dimension of a maximal torus if we know that the homogeneous ideal is prime and it does not contain a linear form.
+Using Proposition 4.13. in the paper it suffices to compute the dimension of a maximal torus if we know that the homogeneous ideal is prime and it does not contain a linear form.
 
 Assume $I$ is a homogeneous prime ideal containing no linear form and the dimension of the quotient ring is $s$.
 If the dimension
